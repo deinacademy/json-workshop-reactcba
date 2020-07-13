@@ -1,4 +1,4 @@
-# TALLER DE JSON
+# WOKSHOP DE JSON
 
 ## Requisitos
 
@@ -7,7 +7,7 @@
 * Abrir la mente a nuevas palabras y conceptos
 * Disposición para ayudar a tus compañeros y compañeras
 
-![Good Vibes](https://media.giphy.com/media/62cT89Nnbb7Gnplz0e/giphy.gif)
+![Good Vibes](https://media.giphy.com/media/xuXzcHMkuwvf2/giphy.gif)
 
 ### Conocimientos
 
@@ -37,7 +37,6 @@ Vamos a realizar algunas tareas que vas a necesitar en el dia a dia como desarro
 
 Te dejo los enlaces a los proyectos, pero tu misión es buscar un tutorial o video donde enseñen como instalarlos.
 
-
 ## Proyecto
 
 Para que nos concentremos en el aprendizaje de JSON y no dedicarnos a resolver problemas técnicos, cada uno debe comprometerse a tener el ambiente listo en su maquina **antes de llegar al taller**.
@@ -47,7 +46,7 @@ Los pasos son los siguientes
 ### 1. Clonar
 
 ```bash
-git clone https://github.com/equiman/playground-json.git [ruta_proyecto]
+git clone https://github.com/equiman/json-workshop-reactcba.git [ruta_proyecto]
 ```
 
 Debes cambiar la palabra `[ruta_proyecto]` por la ruta de tu maquina en la que quiera descargarlo.
@@ -56,9 +55,9 @@ Debes cambiar la palabra `[ruta_proyecto]` por la ruta de tu maquina en la que q
 
 | OS | Comando |
 | --- | --- |
-| win | `git clone https://github.com/equiman/playground-json.git "D:\Cursos\JSON"` |
-| mac | `git clone https://github.com/equiman/playground-json.git ~/Cursos/JSON/` |
-| linux | `git clone https://github.com/equiman/playground-json.git ~/Cursos/JSON/` |
+| win | `git clone https://github.com/equiman/json-workshop-reactcba.git "D:\Cursos\JSON"` |
+| mac | `git clone https://github.com/equiman/json-workshop-reactcba.git ~/Cursos/JSON/` |
+| linux | `git clone https://github.com/equiman/json-workshop-reactcba.git ~/Cursos/JSON/` |
 
 ### 2. Dependencias
 
@@ -98,35 +97,28 @@ Comprobemos que todo esta funcionado. En la consola ejecuta el comando:
 node taller/1
 ```
 
-![See you soon](https://media.giphy.com/media/7QXTBbwXC2ARG/giphy.gif)
+![See you soon](https://media.giphy.com/media/AFdcYElkoNAUE/giphy.gif)
 
 Si ves un mensaje que dice `¡Hola Mundo!` **¡Lo lograste! Ya tienes todo listo para asistir al taller.**
 
-> Si no te funciona no te rindas. Verifica que hayas realizado correctamente cada uno de los pasos. 
+> Si no te funciona no te rindas. Verifica que hayas realizado correctamente cada uno de los pasos.  
 > Si sigue sin funcionar, escribe en el chat del meetup que entre todos tratamos de ayudarte.
 
 ## Alternativa
 
-Si definitivamente no te funciona, podrás hacer el taller de forma online [CodeSandbox](https://githubbox.com/equiman/playground-json) pero para que te funcione vas a depender de una conexión a internet.
+Si definitivamente no te funciona, podrás hacer el taller de forma online [CodeSandbox](https://githubbox.com/equiman/json-workshop-reactcba) pero para que te funcione vas a depender de una conexión a internet.
 
 Para poder ejecutar los comandos, debes hacer click en el icono `+` de la pestaña terminal.
 
 ## Taller
 
-El lugar del próximo meetup esta por definirse, sígueme en twitter [@equiman](https://twitter.com/equiman) para estar enterad@.
+El workshop se va a realizar en vivo los Domingos de Agosto de 2020 en la comunidad de React CBA. Síguenos en twitter [@reactcba](https://twitter.com/ereactcba) para estar al tanto.
 
-Es muy importante estar hidratados para que el cerebro pueda absorber los nuevos conocimientos.
-Por favor **Lleva tu propio termo** :wink: asi ayudamos al planeta a contaminar un poco menos.
+Es muy importante estar hidratados para que el cerebro pueda absorber los nuevos conocimientos. Antes y durante el curso ten listo tu termo.
 
-![Drink Water](https://media.giphy.com/media/lzoNS7ciab7uWWy2cf/giphy.gif)
+![Drink Water](https://media.giphy.com/media/slVWEctHZKvWU/giphy.gif)
 
  **¡Nos vemos pronto!**
-
-## Version online
-
-Si no puedes esperar hasta el próximo meetup o no puedes asistir. Ahora esta disponible una versión **GRATIS** en YouTube:
-
-[![Curso JSON de novato a experto](assets/images/youtube.png)](https://www.youtube.com/playlist?list=PLrDTf5qnZdEAiHO19QB9hq5QXAef1h8oY)
 
 ## Patrocinadores
 
