@@ -19,7 +19,7 @@ const show = ({ name, abilities, types, weight = '' }) => {
     /* TODO:
         [x] What is his name?
         [x] What are his abilities?
-        [x] What is his type?
+        [x] What are his types?
         [x] What is his weight?
     */
 };

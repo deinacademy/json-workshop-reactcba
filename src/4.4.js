@@ -15,7 +15,7 @@ const badBoy = JSON.parse(json, parseData);
 
 /* TODO:
     [x] Convert string `json` to `badBoy` object ¿it's posible?
-    [x] Change `age` value with 18 number and current with "2020-04-01T03:15:32.130Z"
+    [x] Change `age` value with 18 number and `current` with "2020-04-01T03:15:32.130Z"
     [x] Try convert using the reviver option, ensuring `current` was parsed to ISO-8601 date format
 */
 
