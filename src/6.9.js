@@ -7,7 +7,7 @@ console.log('Users:');
 console.table(users);
 
 const handle = 'bochap_';
-const index = users.findIndex(user => user.handle === handle);
+const index = users.findIndex((user) => user.handle === handle);
 
 if (index > -1) {
     users.splice(index, 1);

@@ -1,24 +1,26 @@
 // Section 5: Properties
 
+const { stripIndent } = require('common-tags');
+
 const character = {
-    name: "Homer J Simpson",
+    name: 'Homer J Simpson',
     age: 39,
     home: {
-        address: "Avenida Siempreviva 742",
-        city: "Springfield"
+        address: 'Avenida Siempreviva 742',
+        city: 'Springfield',
     },
     isEmployed: true,
-    sons: ["Bart", "Lisa", "Maggie"]
-}
+    sons: ['Bart', 'Lisa', 'Maggie'],
+};
 
-console.log(`
-Name: ${character.name}
-Age: ${character.age}
-Home:
-  Address: ${character.home.address}
-  City: ${character.home.city}
-Employed: ${character.isEmployed ? 'Yes' : 'No'}
-Sons: ${character.sons.join(', ')}
+console.log(stripIndent`
+    Name: ${character.name}
+    Age: ${character.age}
+    Home:
+        Address: ${character.home.address}
+        City: ${character.home.city}
+    Employed: ${character.isEmployed ? 'Yes' : 'No'}
+    Sons: ${character.sons.join(', ')}
 `);
 
 /* TODO:

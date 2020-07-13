@@ -9,7 +9,7 @@ const parseData = (key, value) => {
 
     const isoDate = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$/;
     return isoDate.test(value) ? new Date(value) : value;
-}
+};
 
 const badBoy = JSON.parse(json, parseData);
 

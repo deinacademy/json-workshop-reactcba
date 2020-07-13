@@ -1,15 +1,15 @@
 // Section 5: Properties
 
 const character = {
-    name: "Homer J Simpson",
+    name: 'Homer J Simpson',
     age: 39,
     home: {
-        address: "Avenida Siempreviva 742",
-        city: "Springfield"
+        address: 'Avenida Siempreviva 742',
+        city: 'Springfield',
     },
     isEmployed: true,
-    sons: ["Bart", "Lisa", "Maggie"]
-}
+    sons: ['Bart', 'Lisa', 'Maggie'],
+};
 
 // const age = character.age;
 // const city = character.home.city;
@@ -17,10 +17,8 @@ const character = {
 
 const {
     age,
-    home: {
-        city
-    },
-    sons
+    home: { city },
+    sons,
 } = character;
 
 /* TODO:

@@ -24,8 +24,8 @@ const show = ({ name, abilities, types, weight = '' }) => {
     */
 };
 
-pokemonApi
-    .getRandomId()
-    .then((id) => pokemonApi.getInfo(id))
-    .then((result) => show(result))
-    .catch((error) => console.log(`Error: ${error}`));
+(async () => {
+    const id = await pokemonApi.getRandomId();
+    const result = await pokemonApi.getInfo(id);
+    show(result);
+})().catch((error) => console.log(`Error: ${error}`));

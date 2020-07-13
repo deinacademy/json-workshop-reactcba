@@ -7,9 +7,9 @@ console.log('Users:');
 console.table(users);
 
 const description = {
-    handle: "carobsts",
-    name: "Caro Bustos",
-    country: "AR"
+    handle: 'carobsts',
+    name: 'Caro Bustos',
+    country: 'AR',
 };
 
 users.push(description);

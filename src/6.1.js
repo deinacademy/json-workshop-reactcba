@@ -7,8 +7,8 @@ console.log('Users:');
 console.table(users);
 
 const description = {
-    name: "Caro Bustos",
-    country: "AR"
+    name: 'Caro Bustos',
+    country: 'AR',
 };
 const handle = 'carobsts';
 users[handle] = description;

@@ -10,7 +10,6 @@ for (let key in users) {
     users[key].level = 'Pro';
 }
 
-
 console.log('Batch:');
 console.table(users);
 

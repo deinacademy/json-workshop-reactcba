@@ -9,8 +9,8 @@ const cat = JSON.parse(json);
     [x] Save on `cat` variable
 */
 
-console.log("String:");
+console.log('String:');
 console.log(json);
 
-console.log("Object:");
+console.log('Object:');
 console.log(cat);

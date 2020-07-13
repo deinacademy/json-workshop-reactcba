@@ -7,9 +7,9 @@ console.log('Personajes:');
 console.table(users);
 
 const handle = 'selene_nr';
-const result = users.map(user => {
+const result = users.map((user) => {
     if (user.handle === handle) {
-        user.country = "DE";
+        user.country = 'DE';
     }
     return user;
 });

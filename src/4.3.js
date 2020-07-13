@@ -5,8 +5,8 @@ const getAge = () => undefined;
 const badBoy = {
     isValid: false,
     age: getAge(),
-    current: new Date()
-}
+    current: new Date(),
+};
 
 const result = JSON.stringify(badBoy, ['current'], 2);
 

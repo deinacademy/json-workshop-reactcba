@@ -6,7 +6,7 @@ console.log('Users:');
 console.table(users);
 
 const handle = 'sanchez_ata';
-const result = users.find(user => user.handle === handle);
+const result = users.find((user) => user.handle === handle);
 
 /* TODO:
     [x] Read Ata from `users` list and save on `result` variable
