@@ -7,6 +7,7 @@ console.log('Personajes:');
 console.table(users);
 
 const handle = 'selene_nr';
+
 /* TODO:
     [ ] Update Lara `country` to `DE` on `users` list
     [ ] Update information on `userObject.json` file

@@ -7,10 +7,11 @@ console.log('Personajes:');
 console.table(users);
 
 const handle = 'selene_nr';
+
 /* TODO:
     [ ] Update Lara `country` to `DE` on `users` list
     [ ] Update information on `userArray.json` file
 */
 
 console.log('Update:');
-console.table(users);
+console.table(result);

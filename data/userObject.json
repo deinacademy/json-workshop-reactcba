@@ -1,18 +1,14 @@
 {
     "bochap_": {
-        "nombre": "Martín Pastore",
+        "name": "Martín Pastore",
         "country": "AR"
     },
     "selene_nr": {
-        "nombre": "Lara Diaz",
+        "name": "Lara Diaz",
         "country": "AR"
     },
     "sanchez_ata": {
-        "nombre": "Ata Sanchez",
-        "country": "AR"
-    },
-    "carobsts": {
-        "nombre": "Caro Bustos",
+        "name": "Ata Sanchez",
         "country": "AR"
     }
 }

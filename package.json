@@ -9,6 +9,7 @@
   "author": "Camilo Martinez (Equiman)",
   "license": "ISC",
   "dependencies": {
+    "common-tags": "^1.8.0",
     "node-fetch": "^2.6.0"
   }
 }

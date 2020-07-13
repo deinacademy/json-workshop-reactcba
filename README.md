@@ -99,7 +99,7 @@ node taller/1
 
 ![See you soon](https://media.giphy.com/media/AFdcYElkoNAUE/giphy.gif)
 
-Si ves un mensaje que dice `¡Hola Mundo!` **¡Lo lograste! Ya tienes todo listo para asistir al taller.**
+Si ves un mensaje que dice `Hello World!` **¡Lo lograste! Ya tienes todo listo para asistir al taller.**
 
 > Si no te funciona no te rindas. Verifica que hayas realizado correctamente cada uno de los pasos.  
 > Si sigue sin funcionar, escribe en el chat del meetup que entre todos tratamos de ayudarte.
