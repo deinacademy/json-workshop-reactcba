@@ -11,6 +11,10 @@ const character = {
     sons: ["Bart", "Lisa", "Maggie"]
 }
 
+character.sons.forEach((son, index) => {
+    console.log(`Hijo ${index + 1}: ${son}`);
+})
+
 /* TODO:
-    [ ] Show each son in a different line
+    [x] Show each son in a different line
 */

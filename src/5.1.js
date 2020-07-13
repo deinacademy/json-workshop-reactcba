@@ -11,7 +11,17 @@ const character = {
     sons: ["Bart", "Lisa", "Maggie"]
 }
 
+console.log(`
+Name: ${character.name}
+Age: ${character.age}
+Home:
+  Address: ${character.home.address}
+  City: ${character.home.city}
+Employed: ${character.isEmployed ? 'Yes' : 'No'}
+Sons: ${character.sons.join(', ')}
+`);
+
 /* TODO:
-    [ ] Show each property on console
-    [ ] Add labels to each property on console
+    [x] Show each property on console
+    [x] Add labels to each property on console
 */

@@ -1,18 +1,17 @@
 {
-    "bochap_": {
-        "nombre": "Martín Pastore",
-        "country": "AR"
-    },
     "selene_nr": {
-        "nombre": "Lara Diaz",
-        "country": "AR"
+        "name": "Lara Diaz",
+        "country": "DE",
+        "level": "Pro"
     },
     "sanchez_ata": {
-        "nombre": "Ata Sanchez",
-        "country": "AR"
+        "name": "Ata Sanchez",
+        "country": "AR",
+        "level": "Pro"
     },
     "carobsts": {
-        "nombre": "Caro Bustos",
-        "country": "AR"
+        "name": "Caro Bustos",
+        "country": "AR",
+        "level": "Pro"
     }
 }

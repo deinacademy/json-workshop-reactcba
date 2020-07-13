@@ -7,10 +7,18 @@ console.log('Users:');
 console.table(users);
 
 const handle = 'bochap_';
+const index = users.findIndex(user => user.handle === handle);
+
+if (index > -1) {
+    users.splice(index, 1);
+}
+
 /* TODO:
-    [ ] Delete Bocha from `users` list
-    [ ] Update information on `userArray.json` file
+    [x] Delete Bocha from `users` list
+    [x] Update information on `userArray.json` file
 */
 
 console.log('Delete:');
-console.table(got);
+console.table(users);
+
+saveFile.toJSON(users, 'userArray');

@@ -4,7 +4,7 @@ const data = require('../data/example.json');
 console.log(data);
 
 /*
-  TODO:
-  [ ] Test each valid type (BASONN)
-  [ ] Test with invalid data types
+    TODO:
+    [x] Test each valid type (BASONN)
+    [x] Test with invalid data types
 */

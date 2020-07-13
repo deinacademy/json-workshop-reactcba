@@ -11,9 +11,21 @@ const character = {
     sons: ["Bart", "Lisa", "Maggie"]
 }
 
+// const age = character.age;
+// const city = character.home.city;
+// const sons = character.sons;
+
+const {
+    age,
+    home: {
+        city
+    },
+    sons
+} = character;
+
 /* TODO:
-    [ ] Create variables for `age`, `city` and `sons` values with properties notation
-    [ ] Create same variables from `character` object` using destructuring
+    [x] Create variables for `age`, `city` and `sons` values with properties notation
+    [x] Create same variables from `character` object` using destructuring
 */
 
 console.log(age);

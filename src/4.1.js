@@ -1,17 +1,19 @@
 // Section 4: Conversions
 
 const dog = {
-    breed: "Akita Inu",
-    name: "Hachiko"
+    breed: 'Akita Inu',
+    name: 'Hachiko',
 };
 
+const result = JSON.stringify(dog);
+
 /* TODO:
-    [ ] Convert `dog` object to string
-    [ ] Save on `result` variable
+    [x] Convert `dog` object to string
+    [x] Save on `result` variable
 */
 
-console.log("Object:");
+console.log('Object:');
 console.log(dog);
 
-console.log("String:");
+console.log('String:');
 console.log(result);

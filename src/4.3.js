@@ -1,17 +1,19 @@
 // Section 4: Conversions
 
-const getAge = () => 18;
+const getAge = () => undefined;
 
 const badBoy = {
     isValid: false,
     age: getAge(),
-    current: (new Date()).toJSON()
+    current: new Date()
 }
 
+const result = JSON.stringify(badBoy, ['current'], 2);
+
 /* TODO:
-    [ ] Convert `badBoy` object to string and save on `result` variable
-    [ ] Remove `toJson()` from `Date()` and return `undefined` on `getAge()`
-    [ ] Filter by `age` and `current` properties, and format text with 2 spaces
+    [x] Convert `badBoy` object to string and save on `result` variable
+    [x] Remove `toJson()` from `Date()` and return `undefined` on `getAge()`
+    [x] Filter `current` properties, and format text with 2 spaces
 */
 
 console.log(result);

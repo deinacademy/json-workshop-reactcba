@@ -7,10 +7,14 @@ console.log('Users:');
 console.table(users);
 
 const handle = 'bochap_';
+delete users[handle];
+
 /* TODO:
-    [ ] Delete Bocha from `users` list
-    [ ] Update information on `userObject.json` file
+    [x] Delete Bocha from `users` list
+    [x] Update information on `userObject.json` file
 */
 
 console.log('Delete:');
-console.table(got);
+console.table(users);
+
+saveFile.toJSON(users, 'userObject');

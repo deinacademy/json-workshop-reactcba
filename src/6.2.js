@@ -6,8 +6,10 @@ console.log('Users:');
 console.table(users);
 
 const handle = 'sanchez_ata';
+const result = users[handle];
+
 /* TODO:
-    [ ] Read Ata from `users` list and save on `result` variable
+    [x] Read Ata from `users` list and save on `result` variable
 */
 
 console.log('Read:');

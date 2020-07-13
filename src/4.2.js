@@ -2,9 +2,11 @@
 
 const json = '{"breed":"Tuxedo","name":"Felix"}';
 
+const cat = JSON.parse(json);
+
 /* TODO:
-    [ ] Convert `json` string to object
-    [ ] Save on `cat` variable
+    [x] Convert `json` string to object
+    [x] Save on `cat` variable
 */
 
 console.log("String:");
