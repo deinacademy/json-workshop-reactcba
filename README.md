@@ -1,4 +1,4 @@
-# WOKSHOP DE JSON
+# WOKSHOP SOBRE JSON
 
 ## Requisitos
 
