@@ -12,7 +12,16 @@ const description = {
     country: 'AR',
 };
 
-users.push(description);
+// Option 1 (at End)
+//users.push(description);
+
+// Option 2 (at Start)
+//users.unshift(description);
+
+// Option 3
+const index = 1;
+const replace = 0;
+users.splice(index, replace, description);
 
 /* TODO:
     [x] Add Caro to `users` list using `description` object

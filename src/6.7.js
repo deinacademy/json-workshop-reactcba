@@ -51,7 +51,7 @@ const result = users.find((user) => user.handle === handle);
 //     }
 // }
 
-//Option 6 (can't stop)
+//Option 6 (can't be stopped)
 // let result = '';
 // users.forEach((user) => {
 //     if (user.handle === handle) {
